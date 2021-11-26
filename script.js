@@ -95,7 +95,7 @@ async function enviar() {
         }
     })
 
-    let percent = (((questionOne + questionTwo + questionThree + questionFour + questionFive + questionSix + questionSeven + questionEight + questionNine + questionTen + questionEleven) / 37 * 100)).toFixed(0) + " %";
+    let percent = (((questionOne + questionTwo + questionThree + questionFour + questionFive + questionSix + questionSeven + questionEight + questionNine + questionTen + questionEleven) / 37 * 100)).toFixed(0) + "%";
     let result = (questionOne + questionTwo + questionThree + questionFour + questionFive + questionSix + questionSeven + questionEight + questionNine + questionTen + questionEleven)
 
     if (result >= 0 || result <= 0) {
