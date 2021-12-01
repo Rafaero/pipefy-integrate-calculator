@@ -2,6 +2,7 @@
     "name": "Question Calculator",
     "short_description": "Question Calculator",
     "description":"",
+    "icon": "./assets/logo-claro.png",
     "author": "Keyrus, Rafael Vitor",
     "init_url": "./",
     "features": [
