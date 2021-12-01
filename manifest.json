@@ -5,6 +5,8 @@
     "icon": "./assets/logo-claro.png",
     "author": "Keyrus, Rafael Vitor",
     "init_url": "./",
-    "features": "pipe-buttons"
+    "features": [
+        "pipe-buttons"
+    ]
 
 }
