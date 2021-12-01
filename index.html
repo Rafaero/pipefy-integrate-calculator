@@ -18,7 +18,8 @@
   <form>
     <div class="mb-3">
       <label for="idField" class="form-label"><b>Card ID</b></label>
-      <input style="max-width: 125px; text-align: center;" type="text" class="form-control" id="idField" aria-describedby="idField">
+      <input style="max-width: 125px; text-align: center;" type="text" class="form-control" id="idField"
+        aria-describedby="idField">
     </div>
 
     <button type="button" onclick="enviar()" class="btn btn-danger">Calcular</button>
@@ -31,7 +32,20 @@
     <li class="list-inline-item">
       <h3 class="display-3 m-3"><b id="show-percent"></b></h3>
   </ul>
-
+  <script>
+    PipefyApp.initCall({
+      'pipe-buttons': function (p, pipe) {
+        return [
+          {
+            Text: 'Question Calculator',
+            url: 'https://rafaero.github.io/question-calculator-claro/',
+            target: 'blank',
+          }
+        ]
+      }
+    });
+  </script>
+  <script src="script.js"></script>
   <script src="script.js"></script>
 </body>
 

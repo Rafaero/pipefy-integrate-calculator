@@ -1,0 +1,10 @@
+{
+    "name": "Question Calculator",
+    "short_description": "Question Calculator",
+    "description":"app",
+    "author": "Keyrus, Rafael Vitor",
+    "init_url": "./",
+    "features": [
+        "pipe-buttons"
+    ]
+}
