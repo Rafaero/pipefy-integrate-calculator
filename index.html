@@ -33,19 +33,21 @@
       <h3 class="display-3 m-3"><b id="show-percent"></b></h3>
   </ul>
   <script src="https://platform.staticpipefy.com/pipefy-app.js"></script>
-  <script>
-    PipefyApp.initCall({
-      'pipe-buttons': function (p, pipe) {
-        return [
-          {
-            Text: 'Question Calculator',
-            url: 'https://rafaero.github.io/pipefy-integrate-calculator/' + pipe.id,
-            target: 'blank',
-          }
-        ]
-      }
-    });
-  </script>
+    <script>
+      PipefyApp.initCall({
+        // Add pipe buttons
+        'pipe-buttons': function(p, pipe) {
+          return [
+            {
+              icon: './assets/logo-claro.png',
+              text: 'Claro',
+              url: 'https://rafaero.github.io/pipefy-integrate-calculator/' + pipe.id,
+              target: 'blank'
+            }
+          ];
+        }
+      });
+    </script>
   <script src="script.js"></script>
 </body>
 

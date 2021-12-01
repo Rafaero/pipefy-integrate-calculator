@@ -1,12 +1,12 @@
 {
-    "name": "Question Calculator",
-    "short_description": "Question Calculator",
-    "description":"",
+    "name": "Calculator",
+    "short_description": "question Calculator",
+    "description": "automate process",
     "icon": "./assets/logo-claro.png",
-    "author": "Keyrus, Rafael Vitor",
+    "author": "Pipefy, Inc.",
     "init_url": "./",
+    "screenshots": [""],
     "features": [
-        "pipe-buttons"
+      "pipe-buttons"
     ]
-
-}
+  }
