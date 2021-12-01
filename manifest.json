@@ -1,7 +1,7 @@
 {
     "name": "Question Calculator",
     "short_description": "Question Calculator",
-    "description":"app",
+    "description":"",
     "author": "Keyrus, Rafael Vitor",
     "init_url": "./",
     "features": [
