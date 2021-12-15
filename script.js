@@ -96,7 +96,7 @@ async function enviar() {
     })
 
     let percent = (((questionOne + questionTwo + questionThree + questionFour + questionFive + questionSix + questionSeven + questionEight + questionNine + questionTen + questionEleven) / 37 * 100)).toFixed(0) + "%";
-    let result = (questionOne + questionTwo + questionThree + questionFour + questionFive + questionSix + questionSeven + questionEight + questionNine + questionTen + questionEleven)
+    let result = parseFloat((questionOne + questionTwo + questionThree + questionFour + questionFive + questionSix + questionSeven + questionEight + questionNine + questionTen + questionEleven)).toFixed(2)
 
     if (result >= 0 || result <= 0) {
         document.getElementById("show-sum").innerHTML = result;
